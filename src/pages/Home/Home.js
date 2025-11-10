@@ -38,8 +38,6 @@ const chainConfig = {
 
 let nftContract, signer, provider, tree, root
 
-//https://gateway.pinata.cloud/ipfs/QmPBYKxSU589fyURqyMxWupAszVmXoSnDt625wwYZEcaaY/1.json
-
 const Home = () => {
   const [walletAddress, setWalletAddress] = useState('')
   const [saleStarted, setSaleStarted] = useState(false)
