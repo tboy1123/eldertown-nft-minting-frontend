@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify'
 import { BounceLoader } from "react-spinners"
 import { MerkleTree } from 'merkletreejs'
 import keccak256 from 'keccak256'
+
 import 'react-toastify/dist/ReactToastify.css'
 
 import abi from '../../constants/abi'
